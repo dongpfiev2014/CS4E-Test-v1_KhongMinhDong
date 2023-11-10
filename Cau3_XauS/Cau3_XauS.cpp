@@ -25,9 +25,8 @@ string encodeString(const string& str) {
 }
 int main() {
     string S;
-    cout << "Nhap xau S: ";
     cin >> S; 
     string encoded = encodeString(S);
-    cout << "Ket qua ma hoa: " << encoded << endl;
+    cout << encoded << endl;
     return 0;
 }
